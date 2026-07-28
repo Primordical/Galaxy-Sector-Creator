@@ -4,55 +4,6 @@ import time
 COLORS = ["Gray","Brown","Light Brown","Light Gray","Dark Red", "Navy Blue","Light Yellow","Dark Green","Dark Blue"]
 STAR_COLORS = ["Yellow", "Light Blue", "Blue","Red","Dark Red","White"]
 
-ALPHABET = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-PART_ONE_NAME = [
-    # Original
-    "Kalmara", "Malara", "Aegeanon", "Posideon", "Hercules", 
-    "Hetelo", "Oceanus", "Vulcan", "Umaara",
-    
-    # Mythological & Ancient Gods
-    "Astraea", "Hyperion", "Osiris", "Tiamat", "Elysium", 
-    "Ares", "Minerva", "Triton", "Zephyros", "Chronos",
-    
-    # Sci-Fi & Alien
-    "Xylar", "Zanthos", "Vaelen", "Krynn", "Nexor", 
-    "Theron", "Vorath", "Drakon", "Zorax", "Kaelis", 
-    "Qaldor", "Xylo", "Vaelis",
-    
-    # Celestial & World-Building
-    "Orion", "Lyra", "Solaria", "Zenobia", "Kepler", 
-    "Eldoria", "Cygnus", "Andromeda", "Caelum", "Vesper", 
-    "Oberon",
-    
-    # Human & Classical
-    "Aurelius", "Cassian", "Seraphina", "Valerius", "Leonidas", 
-    "Alexander", "Balthazar", "Kaelen",
-    
-]
-PART_TWO_NAME = [
-    # Original
-    "Mysara", "Canador", "Infernius", "Beelzenol", "Maal", 
-    "Vaalcanus", "Mooluna", "Amcara", "Kemnus", "Xenona", 
-    "Dromedala", "Kazaralax",
-    
-    # Dark & Fiery / Infernal
-    "Ignis", "Pyroth", "Ashakar", "Brimstone", "Volcanis", 
-    "Malakor", "Voros", "Obsidian", "Scorchia", "Netheron",
-    
-    # Deep Alien / Cosmic
-    "Zulra", "Xanthos", "Vectis", "Krytos", "Vortex", 
-    "Gorgon", "Phobos", "Umbra", "Nadir", "Acheron", 
-    "Xylos", "Vanguard",
-    
-    # Planet & World Components
-    "Lunaris", "Astral", "Solis", "Terran", "Verdant", 
-    "Eclipsis", "Nova", "Nebula", "Corona", "Penumbris", 
-    "Abyssus",
-    
-    # Exotic & Ancient Titles
-    "Mortis", "Valakor", "Zul'Amon", "Dreadion", "Kazador", 
-    "Vexis", "Xerxes", "Tenebris"
-]
 MOON_SUFFIX = ["Prime","Delta","Epsilon","Alpha","Beta","Sigma","Yotta"]
 PREFIXES = ["Ocean","Har","Xeno","Melar","Baal","Mel","Aeag","Meka","Funa","Aieona","Strapat","Komala","Hadeo","Jaurna","Eakla","Kakal","Togo","Yama","Shizen","Aeina","Meina","Lael","Tomo","Shigi","Ramha","Sri","Prad","Anu","Upa","Gan"]
 FIXES = ["hex","ra","nol","hadeo","oelio","-Lokama","malk","shama","terg","minid","-Ommol","mesa","-Olok","jsa","sama","iols","biol","kyu","ram","-Kyua","meiama"]
