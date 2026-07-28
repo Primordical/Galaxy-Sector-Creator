@@ -181,8 +181,8 @@ def GenerateSector(amounts):
     print(f"\n===============================")
 def WriteSectorToFile(amounts):
     sectorName = f"{rnd.randint(1,99)}{GRIFL(ALPHABET).upper()}"
-    os.makedirs(os.path.join("SectorCreator","sector"), exist_ok=True)
-    with open(f"SectorCreator\sector\{sectorName}.txt","w") as file:
+    os.makedirs("sector", exist_ok=True)
+    with open(f"sector\{sectorName}.txt","w") as file:
         print(f"\n====== SECTOR GENERATED: {sectorName} ======")
         for i in range(amounts):
             GenerateSystem(True,file)
