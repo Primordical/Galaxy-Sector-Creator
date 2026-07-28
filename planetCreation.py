@@ -1,3 +1,4 @@
+import os
 import random as rnd
 import time
 COLORS = ["Gray","Brown","Light Brown","Light Gray","Dark Red", "Navy Blue","Light Yellow","Dark Green","Dark Blue"]
@@ -180,7 +181,7 @@ def GenerateSector(amounts):
     print(f"\n===============================")
 def WriteSectorToFile(amounts):
     sectorName = f"{rnd.randint(1,99)}{GRIFL(ALPHABET).upper()}"
-
+    os.makedirs(os.path.join("SectorCreator","sector"), exist_ok=True)
     with open(f"SectorCreator\sector\{sectorName}.txt","w") as file:
         print(f"\n====== SECTOR GENERATED: {sectorName} ======")
         for i in range(amounts):
